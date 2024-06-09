@@ -34,15 +34,33 @@ This assignment aims to familiarize you with the tools and configurations necess
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
 9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process.
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
+
+Step-by-step taking to Download, Install and Configure git on my local machine(Windows 10 pro):
+
+Step 1: I head over to the Google search engine and search for "download git for Windows".
+Clicked on the second link and downloaded git for 64 Bits for my system. After the download was complete, I followed the prompt for installation.
+As soon as the installation was complete, I opened the "Git Bash" and checked the git version on my system for confirmation by using the "git --version" command on the terminal.
+
+Now, I created my first repo on my local system using the "mkdir" command and as well created a file, git add the file, and git commit.
+
+Before committing my file, I head over to GitHub and created a new "Repository" and then copy the "https" link and head back to my local repo. To simply authenticate my git on my local machine, I used the "git config --global user.name "Anthony Aruma" and "git config --global user.email "anthonyaruma091@gmail.com". 
+
+Now, I can link my local repo on my machine to my remote repo on my GitHub by using the "git remote add origin https://github.com/flexcodemic/assigment-git-test.git". Once this is done, I can now git commit using the "git commit -m "Create first text file commit" command.
+
+Finally, I git pushed using "git push origin master" to push to my remote Github account as necessary.
+
+My GitHub Repository Link: https://github.com/flexcodemic/assigment-git-test/tree/master.
+
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
 - A reflection on the challenges faced during setup and strategies employed to overcome them.
 
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
+My GitHub Repository Link: https://github.com/flexcodemic/assigment-git-test/tree/master
 
 #Evaluation Criteria:**
 - Completeness and accuracy of setup documentation.
